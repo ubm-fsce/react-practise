@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import AppAnimalShow from './animals/AppAnimal';
 import AppPdas from "./pdas/AppPdas";
 import AppPics from "./pics/AppPics";
+import AppBooks from './books/AppBooks';
 
 // 2) Get a reference to the div with ID root
 const el = document.getElementById('root');
@@ -14,5 +15,5 @@ const root = ReactDOM.createRoot(el);
 // root.render(<AppPdas />);
 // root.render(<AppAnimalShow />);
 
-root.render(<AppAnimalShow />);
-root.render(<AppPics />);
+root.render(<AppBooks />);
+//root.render(<AppPics />);
