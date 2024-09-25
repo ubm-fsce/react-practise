@@ -12,6 +12,7 @@ const el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
 
 console.log('HELLO.....');
+console.log('HELLO.3333....');
 // 4) Show the component on the screen
 // root.render(<AppPdas />);
 // root.render(<AppAnimalShow />);
